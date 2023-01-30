@@ -103,6 +103,13 @@ System.out.println(friend);
 
     public static void task8() {
         System.out.println("Задача 8");
+     var workingHouse=640;
+     var employees=workingHouse/8;
+     System.out.println("Всего работников в компании- "+ employees + " человек");
+
+     var employeesNew=employees+94;
+     var workinghousNew=employeesNew*8;
+     System.out.println("Если в компании работает " +  employeesNew +" человек, то всего " + workinghousNew + " часов работы может быть поделено между сотрудниками");
 
 
     }
