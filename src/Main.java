@@ -81,6 +81,11 @@ System.out.println(friend);
 
     public static void task6() {
         System.out.println("Задача 6");
+        var firstBoxerWeight = 78.2;
+        var secondBoxerWeight = 82.7;
+        System.out.println(firstBoxerWeight+secondBoxerWeight);
+        System.out.println(secondBoxerWeight-firstBoxerWeight);
+
 
 
     }
@@ -88,7 +93,10 @@ System.out.println(friend);
 
     public static void task7() {
         System.out.println("Задача 7");
-
+        var firstBoxerWeight = 78.2;
+        var secondBoxerWeight = 82.7;
+        System.out.println(secondBoxerWeight - firstBoxerWeight);
+        System.out.println(secondBoxerWeight % firstBoxerWeight);
 
     }
 
