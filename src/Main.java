@@ -81,6 +81,11 @@ System.out.println(friend);
 
     public static void task6() {
         System.out.println("Задача 6");
+        var firstBoxerWeight = 78.2;
+        var secondBoxerWeight = 82.7;
+        System.out.println(firstBoxerWeight+secondBoxerWeight);
+        System.out.println(secondBoxerWeight-firstBoxerWeight);
+
 
 
     }
@@ -88,13 +93,23 @@ System.out.println(friend);
 
     public static void task7() {
         System.out.println("Задача 7");
-
+        var firstBoxerWeight = 78.2;
+        var secondBoxerWeight = 82.7;
+        System.out.println(secondBoxerWeight - firstBoxerWeight);
+        System.out.println(secondBoxerWeight % firstBoxerWeight);
 
     }
 
 
     public static void task8() {
         System.out.println("Задача 8");
+     var workingHouse=640;
+     var employees=workingHouse/8;
+     System.out.println("Всего работников в компании- "+ employees + " человек");
+
+     var employeesNew=employees+94;
+     var workinghousNew=employeesNew*8;
+     System.out.println("Если в компании работает " +  employeesNew +" человек, то всего " + workinghousNew + " часов работы может быть поделено между сотрудниками");
 
 
     }
